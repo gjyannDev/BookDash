@@ -6,7 +6,10 @@
 
 //Atoms CSS ( )
 @import './grid';
+@import './utilities';
 
 //Molecule CSS ( buttons, inputs etc..)
-
+@import './componentsStyles/header';
+@import './componentsStyles/homepage';
+@import './componentsStyles//hero';
 //Utilities 

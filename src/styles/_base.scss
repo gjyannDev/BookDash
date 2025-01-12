@@ -1,10 +1,9 @@
-@import url(
-	'https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'
-);
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
-@import url(
-	'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap'
-); 
+@font-face {
+	font-family: 'Switzer';
+	src: url('/src/assets/Switzer-Regular.otf');
+}
 
 //CSS Reset Default meyerweb
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -84,10 +83,15 @@ button {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Outfit", sans-serif;
+	font-family: "Khand", serif;
 	font-weight: 700;
 }
 
-p {
-	font-family: "Montserrat", sans-serif;
+p, a, li, button {
+	font-family: 'Switzer';
+}
+
+a {
+	text-decoration: none;
+	color: unset;
 }

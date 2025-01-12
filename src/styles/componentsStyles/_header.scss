@@ -1,0 +1,12 @@
+.header__container {
+  margin-top: $size-32px;
+  display: flex;
+  justify-content: space-between;
+
+  .logo__container {
+
+    .logo__img {
+      width: $size-110px;
+    }
+  }
+}

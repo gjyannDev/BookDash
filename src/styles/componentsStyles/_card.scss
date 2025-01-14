@@ -1,0 +1,51 @@
+.home__post-container {
+  margin-top: $size-156px;
+
+  .post__container {
+    width: 540px;
+    padding: $size-24px $size-24px;
+  
+    .author__container {
+      display: flex;
+      align-items: center;
+      gap: $size-16px;
+  
+      .profile__img {
+        width: $size-44px;
+        border-radius: 100%;
+      }
+  
+      .author__info {
+        display: flex;
+        flex-direction: column;
+        gap: $size-4px;
+      }
+    }
+  
+    .post__img-container {
+      padding-top: $size-32px;
+  
+      img {
+        width: 490px;
+        height: 200px;
+      }
+    }
+  
+    .post__information-container {
+      display: flex;
+      flex-direction: column;
+      gap: $size-24px;
+      padding-top: $size-20px;
+  
+      .post__title {
+        font-size: $size-24px;
+        line-height: calc($size-24px * 1.5);
+      }
+  
+      .post__description {
+        font-size: $size-16px;
+        line-height: calc($size-16px * 1.5);
+      }
+    }
+  }  
+}

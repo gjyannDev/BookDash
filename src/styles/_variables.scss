@@ -87,18 +87,26 @@ $primary-clr: #a294f9;
 $base-white: #f5f6f9;
 $base-black: #2b2730;
 
+
+//*Design Tokens
 //text color
 $text-primary: $base-black;
+$text-secondary: #414651;
 $text-white: $base-white;
 
+//backgrounds
+$bg-primary: $base-white;
 
 //Box Shadows
 $thin-drop-shadow-3: 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 $button-drop-shadow-md: 0 0 0 1px rgba(84, 101, 255, 0.18), 0 -2px 0 0 rgba(10, 13, 18, 0.05), 0 1px 2px 0 rgba(10, 13, 18, 0.05);
+$card-drop-shadow: 0 4px 6px -2px rgba(10, 13, 18, 0.03), 0 2px 2px -1px rgba(10, 13, 18, 0.04), 0 12px 16px -4px rgba(10, 13, 18, 0.08);
+$input-drop-shadow: 0 1px 3px 0 rgba(10, 13, 18, 0.1), 0 1px 2px -1px rgba(10, 13, 18, 0.1);
 
 //Border
 $form-border-1: solid 1px #b9b9b9;
 $form-border-2: solid 1px #e2e8f0;
+$form-border-3: solid 1px #e9eaeb;
 
 //input sizes
 $input-form-size: 24.75rem;

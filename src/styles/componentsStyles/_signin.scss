@@ -1,0 +1,95 @@
+.login__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: $size-40px;
+  height: 90vh;
+  align-items: center;
+  margin-top: $size-96px;
+  margin-bottom: $size-72px;
+
+  .login__card {
+    display: flex;
+    flex-direction: column;
+    height: 31.8rem;
+    width: 388px;
+    background-color: $bg-primary;
+    padding: 0 $size-32px 0 $size-32px;
+    box-shadow: $card-drop-shadow;
+    border: $form-border-3;
+    border-radius: $size-12px;
+
+    .card__upper {
+      padding-top: $size-48px;
+      display: flex;
+      flex-direction: column;
+      gap: $size-24px;
+
+      .header__text {
+        font-size: $size-28px;
+        text-align: center;
+      }
+
+      .signin__description {
+        font-size: $size-16px;
+        text-align: center;
+        color: $text-secondary;
+        width: 300px;
+        line-height: calc($size-16px * 1.5);
+      }
+    }
+
+    .card__forms {
+      padding-top: $size-40px;
+
+      .input {
+        border-radius: $size-6px;
+        height: $size-40px;
+        border: solid 1px #f5f5f5;
+        background-color: #f8f8fe;
+        box-shadow: $input-drop-shadow;
+      }
+
+      .input__group {
+        display: flex;
+        flex-direction: column;
+        gap: $size-6px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: $size-44px;
+      }
+
+      ::placeholder {
+        padding-left: $size-8px;
+      }
+
+      .input:focus {
+        outline: none;
+      }
+
+      .input:focus-within {
+        border: 1.5px solid $primary-clr  ;
+      }
+
+      .signin__btn {
+        background-color: $primary-clr;
+        border-radius: $size-8px;
+        padding: $size-12px $size-24px;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .hint__signup {
+
+    .hint__text {
+
+      span {
+        color: $primary-clr;
+      }
+    }
+  }
+}
